@@ -37,3 +37,9 @@ Product and vehicle drawings are generic illustrations, not photos. Product spec
 - Reconcile vehicle language mismatches and confirm seat-number mapping.
 - Verify product specifications and ratings against the applicable regional model.
 - Agree the final spreadsheet update process and tablet kiosk setup.
+
+## GitHub Pages preview
+
+Live preview: https://samlee12345.github.io/JaydenBaby-App/
+
+Pages uses GitHub Actions, rather than serving the source at the branch root. Each push to main installs the locked dependencies, builds the Vite app and publishes dist. The production asset base is /JaydenBaby-App/; local development still uses /. This hosts the browser prototype only, not an installed tablet app.
