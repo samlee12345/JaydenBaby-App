@@ -2,6 +2,10 @@
 
 Updated: 2026-10-14. This section is the current source of truth and supersedes the historical decisions below.
 
+## Brand identity
+
+Use the official JaydenBaby image logo from https://www.jaydenbaby.com in the header and start screen. Preserve its lettering, colours and aspect ratio. Bundled unchanged at src/assets/jaydenbaby-logo.png. Zain remains the heading font, not a substitute for the logo.
+
 ## Confirmed UI revision
 
 - More high-tech and mature, replacing playful flowers, pastel blocks, cartoon graphics and childlike copy.
