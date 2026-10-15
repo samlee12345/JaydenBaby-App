@@ -1,6 +1,6 @@
 # JaydenBaby tablet preview
 
-A bilingual, portrait-first shop tablet web app built with Vite and vanilla JavaScript. English appears above Cantonese, and the layout responds to landscape rotation.
+A bilingual, portrait-first shop tablet web app built with Vite and vanilla JavaScript. Each screen displays English or Traditional Chinese, selected using the language control. The interface is portrait-only; wider browser windows keep a centered portrait layout. Native orientation locking awaits the Android build.
 
 ## Run locally
 
@@ -13,8 +13,8 @@ Install dependencies with `npm install`, then run `npm run dev`. Open the printe
 - Home, brand and age filtering, bilingual search, product details.
 - Two or three product comparison, add/remove controls and a three-product limit.
 - Vehicle brand, model, year selection and a clearly unconfirmed ISOFIX result.
-- Session storage retains selections on refresh; responsive CSS preserves state on rotation.
-- After three minutes without interaction outside Home, selections reset to Home.
+- Session storage retains selections on refresh. Language preference persists and switching language preserves selections.
+- Top-left return control on every screen, plus manual Home. No inactivity reset.
 - Bundled Zain, Nunito and Noto Sans TC fonts; no runtime font service required.
 
 ## Data boundaries

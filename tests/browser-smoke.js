@@ -3,6 +3,7 @@ const results=[];
 const assert=(name,ok)=>{results.push({name,pass:!!ok});if(!ok)throw Error(name);};
 const click=s=>{const e=document.querySelector(s);if(!e)throw Error('Missing '+s);e.click();};
 const input=(s,value,event='input')=>{const e=document.querySelector(s);e.value=value;e.dispatchEvent(new Event(event,{bubbles:true}));};
+if(document.documentElement.lang==='zh-HK')click('[data-action="language"]');
 click('[data-action="home"]');click('[data-action="browse"]');
 assert('Full catalogue',document.querySelectorAll('.product-card').length===102);
 input('#brand-filter','Nuna','change');assert('Nuna filter',document.querySelectorAll('.product-card').length===11);
