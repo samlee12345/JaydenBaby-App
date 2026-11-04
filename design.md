@@ -174,3 +174,7 @@ The brief proposes an installed Android-only Flutter app plus staff web admin, g
 ## Distribution and connectivity confirmed
 
 User confirmed no app store distribution, but internet access is allowed. Deliver an Android APK for direct installation on store tablets, with no Google Play or Apple App Store listing. An online staff admin, catalogue/media synchronization and cached offline use are compatible with this requirement. App installation updates are separate from catalogue updates. Backend provider and device installation/update process remain implementation decisions; no service provisioning is implied by this clarification.
+
+## Seating animation, 2026-11-04
+
+Use the supplied video as visual inspiration for a transparent cutaway car illustration with a gentle looping float. Implemented on the ISOFIX home card and vehicle result. No green compatibility checks until vehicle data is verified. Generic illustration caption is essential on results. Use a still image when the device requests reduced motion. The current artwork has six seats and does not describe any selected vehicle's actual layout.

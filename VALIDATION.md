@@ -19,3 +19,7 @@ Not yet verified on a physical iPad. The idle reset is implemented at three minu
 ## UI revision, 2026-10-14
 
 Production build passed. Primary interaction smoke checks passed again. tests/language-navigation.js passes at 820x1180 and 1180x820, checking single-language English copy, Chinese placeholders/options, search and comparison preservation on language switch, return navigation, root disabled return, and one-column portrait layout. Visually reviewed English/Chinese home and Chinese vehicle result. Native portrait lock is not implemented because the current build is a browser preview. Timed reset has been removed.
+
+## 2026-11-04: transparent seating animation
+
+Production build passed. Both existing browser suites passed, including navigation, language switching, three-seat comparison and no overflow. Inspected home and vehicle result at 820 x 1180: transparent GIF has no background rectangle and fits both cards. GIF encodes a four-second 48-frame loop. A picture source supplies a static PNG for prefers-reduced-motion; browser automation could not emulate that media preference because its CDP method is not allowlisted, so native preference behavior was not directly exercised.
