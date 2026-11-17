@@ -1,6 +1,6 @@
 # JaydenBaby Tablet App Design
 
-Updated: 2026-10-14. This section is the current source of truth and supersedes the historical decisions below.
+Updated: 2026-11-17. This section is the current source of truth and supersedes the historical decisions below.
 
 ## Brand identity
 
@@ -19,7 +19,7 @@ Use the official JaydenBaby image logo from https://www.jaydenbaby.com in the he
 
 ## Current implementation and limits
 
-Vite browser preview only. Not yet an installed Android app. Local data snapshot contains 102 bilingual products and 1,250 vehicle variants. ISOFIX maps remain unconfirmed; illustrations are labelled and not product photos. No backend, admin or online catalogue sync yet. Guided age/brand/price flow remains the next functional work item, not part of this visual revision.
+Vite browser preview only. Not yet an installed Android app. Local data snapshot contains 102 bilingual products and 1,250 vehicle variants. ISOFIX maps remain unconfirmed. Four supplied Britax Römer photos appear on their matching products and the home card. Vehicle results place an exterior-photo slot above a separate seating/ISOFIX section. Supplied layout references are explicitly unconfirmed; unmatched entries show a pending state. No backend, admin or online catalogue sync yet. Guided age/brand/price flow remains the next functional work item, not part of this visual revision.
 
 Checks: browser smoke flow and language/navigation tests pass; English body text is not mixed with Chinese, localised placeholders/options work, language changes preserve selections, and portrait composition remains on wide browsers.
 

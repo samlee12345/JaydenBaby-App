@@ -6,3 +6,6 @@ dist/
 .env
 .env.*
 !.env.example
+
+# Downloaded originals stay in Drive; app copies are bundled under src/assets.
+Ops/source-images/

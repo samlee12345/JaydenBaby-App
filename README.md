@@ -6,7 +6,7 @@ A bilingual, portrait-first shop tablet web app built with Vite and vanilla Java
 
 Install dependencies with `npm install`, then run `npm run dev`. Open the printed local URL. A tablet on the same Wi-Fi can use the printed network URL while the computer and server are running.
 
-`npm run build` creates the static site in `dist`. `npm run preview` serves that build locally. No backend, authentication, or cloud deployment is configured.
+`npm run build` creates the static site in `dist`. `npm run preview` serves that build locally. GitHub Pages hosts the preview. No backend or authentication is configured.
 
 ## Included
 
@@ -29,11 +29,11 @@ Products come from the English and Chinese clean tabs, paired by brand/model wit
 
 The vehicle import reads Compatibility A1:R6669 and deduplicates records by English brand/model, yielding 1,250 vehicle variants. It omits 424 rows where English and Chinese model text differs. These need manual review; some differences may be legitimate translations. Flags are not imported as ISOFIX locations because their definitions and physical seat mapping remain unconfirmed.
 
-Product and vehicle drawings are generic illustrations, not photos. Product specifications and ADAC field text come from the supplied sheet and have not been independently verified. The results make no affirmative or negative ISOFIX claim. This is a functional preview, not a validated compatibility tool for customer deployment.
+Four supplied Britax Römer product photos are shown on matching products. Other products use labelled illustrations. Vehicle exterior photos are pending; eleven vehicle entries have supplied model-family seating references, with version and ISOFIX positions still unconfirmed. Product specifications and ADAC field text come from the supplied sheet and have not been independently verified. The results make no affirmative or negative ISOFIX claim. This is a functional preview, not a validated compatibility tool for customer deployment.
 
 ## Next content work
 
-- Supply approved product photos and the official logo asset.
+- Supply remaining product photos and actual vehicle exterior photos. The official logo and four product photos are bundled.
 - Reconcile vehicle language mismatches and confirm seat-number mapping.
 - Verify product specifications and ratings against the applicable regional model.
 - Agree the final spreadsheet update process and tablet kiosk setup.
@@ -43,3 +43,5 @@ Product and vehicle drawings are generic illustrations, not photos. Product spec
 Live preview: https://samlee12345.github.io/JaydenBaby-App/
 
 Pages uses GitHub Actions, rather than serving the source at the branch root. Each push to main installs the locked dependencies, builds the Vite app and publishes dist. The production asset base is /JaydenBaby-App/; local development still uses /. This hosts the browser prototype only, not an installed tablet app.
+
+Operational context, media provenance, data research and new checks are in [Ops/context.md](Ops/context.md).
